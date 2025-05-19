@@ -1,0 +1,534 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0bda772ad7684f8d5",
+                    "InstanceId": "i-02bd7d308894e6cd1",
+                    "InstanceType": "t3.medium",
+                    "KeyName": "kube-demo",
+                    "LaunchTime": "2025-05-19T12:47:08.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-192-168-8-47.ec2.internal",
+                    "PrivateIpAddress": "192.168.8.47",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-34-204-87-204.compute-1.amazonaws.com",
+                    "PublicIpAddress": "34.204.87.204",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-009c2b88ecbf6278b",
+                    "VpcId": "vpc-02cd86e6e579c748e",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-05-19T12:47:09.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0cedbd128d0d383b5"
+                            }
+                        }
+                    ],
+                    "ClientToken": "fleet-73043286-f9b5-eb3c-0e1a-0c8040dac765-0",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::381492111228:instance-profile/eks-48cb744a-5d0d-dded-47e5-14efbcad97bc",
+                        "Id": "AIPAVRUVTU56CRIL52XKT"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-34-204-87-204.compute-1.amazonaws.com",
+                                "PublicIp": "34.204.87.204"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2025-05-19T12:47:08.000Z",
+                                "AttachmentId": "eni-attach-0d842e32f5166a8bb",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess",
+                                    "GroupId": "sg-0a0e1935e81295c4d"
+                                },
+                                {
+                                    "GroupName": "eks-cluster-sg-eksdemo1-503347647",
+                                    "GroupId": "sg-0e51d457b252c81b7"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0e:22:59:ee:f9:7d",
+                            "NetworkInterfaceId": "eni-05b8d81312cb041eb",
+                            "OwnerId": "381492111228",
+                            "PrivateDnsName": "ip-192-168-8-47.ec2.internal",
+                            "PrivateIpAddress": "192.168.8.47",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-34-204-87-204.compute-1.amazonaws.com",
+                                        "PublicIp": "34.204.87.204"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-192-168-8-47.ec2.internal",
+                                    "PrivateIpAddress": "192.168.8.47"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-16-74.ec2.internal",
+                                    "PrivateIpAddress": "192.168.16.74"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-12-107.ec2.internal",
+                                    "PrivateIpAddress": "192.168.12.107"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-12-156.ec2.internal",
+                                    "PrivateIpAddress": "192.168.12.156"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-3-237.ec2.internal",
+                                    "PrivateIpAddress": "192.168.3.237"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-22-23.ec2.internal",
+                                    "PrivateIpAddress": "192.168.22.23"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-009c2b88ecbf6278b",
+                            "VpcId": "vpc-02cd86e6e579c748e",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess",
+                            "GroupId": "sg-0a0e1935e81295c4d"
+                        },
+                        {
+                            "GroupName": "eks-cluster-sg-eksdemo1-503347647",
+                            "GroupId": "sg-0e51d457b252c81b7"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "eks-eksdemo1-ng-public1-48cb744a-5d0d-dded-47e5-14efbcad97bc"
+                        },
+                        {
+                            "Key": "alpha.eksctl.io/nodegroup-name",
+                            "Value": "eksdemo1-ng-public1"
+                        },
+                        {
+                            "Key": "kubernetes.io/cluster/eksdemo1",
+                            "Value": "owned"
+                        },
+                        {
+                            "Key": "aws:ec2:fleet-id",
+                            "Value": "fleet-73043286-f9b5-eb3c-0e1a-0c8040dac765"
+                        },
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/enabled",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "eksdemo1-eksdemo1-ng-public1-Node"
+                        },
+                        {
+                            "Key": "alpha.eksctl.io/nodegroup-type",
+                            "Value": "managed"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-015d97ce1e487b9d4"
+                        },
+                        {
+                            "Key": "eks:cluster-name",
+                            "Value": "eksdemo1"
+                        },
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/eksdemo1",
+                            "Value": "owned"
+                        },
+                        {
+                            "Key": "eks:nodegroup-name",
+                            "Value": "eksdemo1-ng-public1"
+                        },
+                        {
+                            "Key": "aws:eks:cluster-name",
+                            "Value": "eksdemo1"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-05-19T12:47:08.000Z",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "381492111228",
+            "RequesterId": "376696368883",
+            "ReservationId": "r-078f77bb7173a9a6a"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0bda772ad7684f8d5",
+                    "InstanceId": "i-02dd137b1e5804c79",
+                    "InstanceType": "t3.medium",
+                    "KeyName": "kube-demo",
+                    "LaunchTime": "2025-05-19T12:47:09.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-192-168-47-33.ec2.internal",
+                    "PrivateIpAddress": "192.168.47.33",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-44-198-171-242.compute-1.amazonaws.com",
+                    "PublicIpAddress": "44.198.171.242",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-0f144fa5eab6451ae",
+                    "VpcId": "vpc-02cd86e6e579c748e",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-05-19T12:47:09.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-042d5532c7fd3228b"
+                            }
+                        }
+                    ],
+                    "ClientToken": "fleet-c73725bd-942e-6e25-8612-2b0ad656ce61-0",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::381492111228:instance-profile/eks-48cb744a-5d0d-dded-47e5-14efbcad97bc",
+                        "Id": "AIPAVRUVTU56CRIL52XKT"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-44-198-171-242.compute-1.amazonaws.com",
+                                "PublicIp": "44.198.171.242"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2025-05-19T12:47:09.000Z",
+                                "AttachmentId": "eni-attach-0d23621d4ef01caed",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess",
+                                    "GroupId": "sg-0a0e1935e81295c4d"
+                                },
+                                {
+                                    "GroupName": "eks-cluster-sg-eksdemo1-503347647",
+                                    "GroupId": "sg-0e51d457b252c81b7"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:ab:64:de:c6:0d",
+                            "NetworkInterfaceId": "eni-02aeaf95e05dc0317",
+                            "OwnerId": "381492111228",
+                            "PrivateDnsName": "ip-192-168-47-33.ec2.internal",
+                            "PrivateIpAddress": "192.168.47.33",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-44-198-171-242.compute-1.amazonaws.com",
+                                        "PublicIp": "44.198.171.242"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-192-168-47-33.ec2.internal",
+                                    "PrivateIpAddress": "192.168.47.33"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-55-169.ec2.internal",
+                                    "PrivateIpAddress": "192.168.55.169"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-36-203.ec2.internal",
+                                    "PrivateIpAddress": "192.168.36.203"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-37-187.ec2.internal",
+                                    "PrivateIpAddress": "192.168.37.187"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-60-96.ec2.internal",
+                                    "PrivateIpAddress": "192.168.60.96"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-62-210.ec2.internal",
+                                    "PrivateIpAddress": "192.168.62.210"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0f144fa5eab6451ae",
+                            "VpcId": "vpc-02cd86e6e579c748e",
+                            "InterfaceType": "interface"
+                        },
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-05-19T12:47:48.000Z",
+                                "AttachmentId": "eni-attach-022a1cf98db1fbc9f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 1,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "aws-K8S-i-02dd137b1e5804c79",
+                            "Groups": [
+                                {
+                                    "GroupName": "eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess",
+                                    "GroupId": "sg-0a0e1935e81295c4d"
+                                },
+                                {
+                                    "GroupName": "eks-cluster-sg-eksdemo1-503347647",
+                                    "GroupId": "sg-0e51d457b252c81b7"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:c6:dd:9b:99:39",
+                            "NetworkInterfaceId": "eni-0f4509153e8715e56",
+                            "OwnerId": "381492111228",
+                            "PrivateDnsName": "ip-192-168-41-220.ec2.internal",
+                            "PrivateIpAddress": "192.168.41.220",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-192-168-41-220.ec2.internal",
+                                    "PrivateIpAddress": "192.168.41.220"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-45-128.ec2.internal",
+                                    "PrivateIpAddress": "192.168.45.128"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-61-16.ec2.internal",
+                                    "PrivateIpAddress": "192.168.61.16"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-35-227.ec2.internal",
+                                    "PrivateIpAddress": "192.168.35.227"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-43-85.ec2.internal",
+                                    "PrivateIpAddress": "192.168.43.85"
+                                },
+                                {
+                                    "Primary": false,
+                                    "PrivateDnsName": "ip-192-168-61-21.ec2.internal",
+                                    "PrivateIpAddress": "192.168.61.21"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0f144fa5eab6451ae",
+                            "VpcId": "vpc-02cd86e6e579c748e",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess",
+                            "GroupId": "sg-0a0e1935e81295c4d"
+                        },
+                        {
+                            "GroupName": "eks-cluster-sg-eksdemo1-503347647",
+                            "GroupId": "sg-0e51d457b252c81b7"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "eks-eksdemo1-ng-public1-48cb744a-5d0d-dded-47e5-14efbcad97bc"
+                        },
+                        {
+                            "Key": "kubernetes.io/cluster/eksdemo1",
+                            "Value": "owned"
+                        },
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/eksdemo1",
+                            "Value": "owned"
+                        },
+                        {
+                            "Key": "alpha.eksctl.io/nodegroup-name",
+                            "Value": "eksdemo1-ng-public1"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "alpha.eksctl.io/nodegroup-type",
+                            "Value": "managed"
+                        },
+                        {
+                            "Key": "aws:ec2:fleet-id",
+                            "Value": "fleet-c73725bd-942e-6e25-8612-2b0ad656ce61"
+                        },
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/enabled",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "eks:cluster-name",
+                            "Value": "eksdemo1"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-015d97ce1e487b9d4"
+                        },
+                        {
+                            "Key": "aws:eks:cluster-name",
+                            "Value": "eksdemo1"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "eksdemo1-eksdemo1-ng-public1-Node"
+                        },
+                        {
+                            "Key": "eks:nodegroup-name",
+                            "Value": "eksdemo1-ng-public1"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-05-19T12:47:09.000Z",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "381492111228",
+            "RequesterId": "376696368883",
+            "ReservationId": "r-0c2cddf3726f30d04"
+        }
+    ]
+}
